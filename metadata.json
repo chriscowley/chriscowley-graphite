@@ -1,17 +1,33 @@
 {
-  "name": "chriscowley/graphite",
+  "name": "chriscowley-graphite",
   "version": "0.1.0",
   "author": "chriscowley",
-  "summary": "Install Graphite on EL",
-  "license": "Apache 2.0",
-  "source": "",
-  "project_page": null,
-  "issues_url": null,
+  "summary": "Installs Graphite using distro packages and follow distro file system layout",
+  "license": "Apache-2.0",
+  "source": "https://github.com/chriscowley/chriscowley-graphite.git",
+  "project_page": "https://github.com/chriscowley/chriscowley-graphite",
+  "issues_url": "https://github.com/chriscowley/chriscowley-graphite/issues",
   "dependencies": [
     {
-      "version_range": ">= 1.0.0",
-      "name": "puppetlabs-stdlib"
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
     }
   ]
 }
-

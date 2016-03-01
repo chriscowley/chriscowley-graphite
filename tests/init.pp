@@ -9,4 +9,8 @@
 # Learn more about module testing here:
 # http://docs.puppetlabs.com/guides/tests_smoke.html
 #
+<<<<<<< HEAD
 include graphite
+=======
+include ::graphite
+>>>>>>> 90446566e340da91d81e94f37b7fa86b0c9eeeec
